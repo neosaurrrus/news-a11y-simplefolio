@@ -2,38 +2,38 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'news A11y', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'A study into news site accessibility', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'news should be for',
+  name: 'all abilities',
+  subtitle: 'a study on WCAG2.1 adherence',
+  cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: 'a11y.png',
+  paragraphOne: 'Why are news Sites important? Democrcyy',
+  paragraphTwo: 'As well as moral case. Population of disability.',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'wcag', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'BBC',
+    info:
+      'Information and user interface components must be presentable to users in ways they can perceive.',
+    info2: 'pookok opk op pko po opk opk ',
+    url: 'https://bbc.com/news',
+    repo: 'https://', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

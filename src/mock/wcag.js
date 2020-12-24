@@ -1,20 +1,5 @@
 import { nanoid } from 'nanoid';
 
-// HEAD DATA
-export const headData = {
-  title: 'Hello', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
-};
-
-// HERO DATA
-export const heroData = {
-  title: 'news should be for',
-  name: 'all abilities',
-  subtitle: 'a study on WCAG2.1 adherence',
-  cta: 'Learn More',
-};
-
 // ABOUT DATA
 export const aboutData = {
   img: 'a11y.png',
@@ -58,13 +43,6 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
-};
-
 // FOOTER DATA
 export const footerData = {
   networks: [
@@ -93,5 +71,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

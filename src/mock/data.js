@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'news A11y', // e.g: 'Name | Developer'
+  title: 'news for all of us', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'A study into news site accessibility', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'news should be for',
-  name: 'all abilities',
-  subtitle: 'a study on WCAG2.1 adherence',
-  cta: 'Learn More',
+  title: 'News is',
+  name: 'all of us.',
+  subtitle: 'A study on WCAG2.1 adherence on popular news sites',
+  cta: 'learn more',
 };
 
 // ABOUT DATA
@@ -33,16 +33,16 @@ export const projectsData = [
       'Information and user interface components must be presentable to users in ways they can perceive.',
     info2: 'pookok opk op pko po opk opk ',
     url: 'https://bbc.com/news',
-    repo: 'https://', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'The Guardian',
+    info: 'Launched in 1999',
+    info2: 'Something about the guardian',
+    url: 'https://theguardian.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

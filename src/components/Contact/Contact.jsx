@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta ||
-                'This is a just a little dip into a deep topic, I would especially love to work with regular users of accessibility tools'}
+                'This is a just a little dip into something that deserves a deeper look, I would especially love to work with regular users of accessibility tools'}
             </p>
             <a
               target="_blank"

@@ -1,14 +1,14 @@
 import { nanoid } from 'nanoid';
 
 export const headData = {
-  title: 'The Guardian Results', // e.g: 'Name | Developer'
+  title: 'BBC News Results', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'A study into news site accessibility', // e.g: Welcome to my website
+  description: 'A study into news site accessibility on the BBC News Site', // e.g: Welcome to my website
 };
 export const heroData = {
   title: 'Acessilbilty report for',
-  name: 'The Guardian',
-  subtitle: 'Overall high scores',
+  name: 'BBC News',
+  subtitle: 'Summary of score',
   cta: 'learn more',
 };
 
@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    title: 'The page has a logical tab order',
+    title: '4/5 - The page has a logical tab order',
     info2:
       'Suggestions: Avoid text spanning long gaps in elements. See if ads can be better vetted for accessibility',
     info:

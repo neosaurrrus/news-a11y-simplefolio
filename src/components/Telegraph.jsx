@@ -1,18 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import Hero from './Hero/Hero';
 import About from './About/About';
+import Hero from './Hero/Hero';
 import Reviews from './Projects/Reviews';
 import Footer from './Footer/Footer';
-
 import { PortfolioProvider } from '../context/context';
-
-import { heroData, aboutData, projectsData, footerData } from '../mock/guardian';
+import { heroData, aboutData, projectsData, footerData } from '../mock/telegraph';
 
 function App() {
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
-
   const [footer, setFooter] = useState({});
 
   useEffect(() => {

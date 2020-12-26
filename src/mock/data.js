@@ -29,11 +29,12 @@ export const projectsData = [
   {
     id: nanoid(),
     title: 'BBC',
+    img: 'project.jpg',
     info:
       'Information and user interface components must be presentable to users in ways they can perceive.',
     info2: 'pookok opk op pko po opk opk ',
     url: 'https://bbc.com/news',
-    repo: '', // if no repo, the button will not show up
+    repo: 'bbc', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,25 +43,61 @@ export const projectsData = [
     info: 'Launched in 1999',
     info2: 'Something about the guardian',
     url: 'https://theguardian.com',
-    repo: '', // if no repo, the button will not show up
+    repo: 'the-guardian', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'The Daily Mirror',
+    info: 'Launched in 1999',
+    info2: 'Something about the guardian',
+    url: 'https://theguardian.com',
+    repo: 'the-daily-mirror', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'The Daily Telegraph',
+    info: 'Something about the site',
+    info2: 'Something about the organisation',
+    url: 'https://theguardian.com',
+    repo: 'the-daily-telegraph', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'The Daily Mail',
+    info: 'Something about the site',
+    info2: 'Something about the organisation',
+    url: 'https://theguardian.com',
+    repo: 'the-daily-mail', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'The Times',
+    info: 'Something about the site',
+    info2: 'Something about the organisation',
+    url: 'https://theguardian.com',
+    repo: 'the-times', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'The Sun',
+    info: 'Something about the site',
+    info2: 'Something about the organisation',
+    url: 'https://theguardian.com',
+    repo: 'the-sun', // if no repo, the button will not show up
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
-};
+// // CONTACT DATA
+// export const contactData = {
+//   cta: '',
+//   btn: '',
+//   email: '',
+// };
 
 // FOOTER DATA
 export const footerData = {
@@ -68,22 +105,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/lukie_k',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukiek/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/neosaurrrus',
     },
   ],
 };

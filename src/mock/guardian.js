@@ -21,7 +21,7 @@ export const aboutData = {
     'Footer Elements with "aria-hidden-true" contain descendants that are focusable which may stop those with screen readers accessing. A few images lack alt tags to explain the images to screen reader users.',
   paragraphThree:
     'The most common issue was that a number of elements lacked a sufficient contract ratio which may limt readability for people with visual impairements',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://design.theguardian.com/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     title: 'BBC',
-    img: 'project.jpg',
+    img: 'bbc.png',
     info:
       'Information and user interface components must be presentable to users in ways they can perceive.',
     info2: 'pookok opk op pko po opk opk ',
@@ -40,6 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'The Guardian',
+    img: 'guardian.png',
     info: 'Launched in 1999',
     info2: 'Something about the guardian',
     url: 'https://theguardian.com',

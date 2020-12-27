@@ -38,7 +38,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
     title: 'The Guardian',
     img: 'guardian.png',
     info: 'Launched in 1999',

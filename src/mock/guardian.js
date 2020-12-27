@@ -36,8 +36,8 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    title: 'Interactive Controls are keyboard focusable',
-    info: '10/10 - No issues found, all controls were keyboard focusable.',
+    title: '5/5 - Interactive Controls are keyboard focusable',
+    info: 'No issues found, all regular controls were keyboard focusable.',
     info2: 'Suggestions: None.',
   },
   {
@@ -52,7 +52,7 @@ export const projectsData = [
     id: nanoid(),
     title: 'The users focus is directed to new content added to the page',
     info2:
-      'Suggestions: Allow the cookie prompt to take focus to allow easy response for keyboard only users',
+      'Suggestions: Allow the cookie prompt to take focus at the top of the page to allow easy response for keyboard only users',
     info:
       '1/5 - The only new content found was the cookie prompt which was not focused, and did not appear focusable. This would be tricky for a keyboard only user to navigate.',
   },

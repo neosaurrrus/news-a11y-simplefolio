@@ -1,26 +1,26 @@
 import { nanoid } from 'nanoid';
 
 export const headData = {
-  title: 'BBC News Results', // e.g: 'Name | Developer'
+  title: 'Daily Mail Results', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'A study into news site accessibility on the BBC News Site', // e.g: Welcome to my website
+  description: 'A study into news site accessibility on the Daily Mail Site', // e.g: Welcome to my website
 };
 export const heroData = {
   title: 'Acessilbilty report for',
-  name: 'BBC News',
-  subtitle: 'Summary of score',
-  cta: 'learn more',
+  name: 'Daily Mail',
+  subtitle: ' Rating: XXXXX (Xth of 7.)',
+  cta: 'Summary',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'a11y.png',
   paragraphOne:
-    'Some improvements were identified by lighthouse testing but these were most one-off issues.',
+    'Automated lighthouse testing found 17 passed audits and 6 flagged opportunities for improvement with a total score of 84. ',
   paragraphTwo:
-    'Footer Elements with "aria-hidden-true" contain descendants that are focusable which may stop those with screen readers accessing. A few images lack alt tags to explain the images to screen reader users.',
+    'The most common flags were for many of the images, links and iframes missing the relevent titles or tages and the heading elements do not follow a sequentially decending order. While the lighthouse score is excellent, the issues flagged occur with greater frequency than the score would suggest.',
   paragraphThree:
-    'The most common issue was that a number of elements lacked a sufficient contract ratio which may limt readability for people with visual impairements',
+    'The manual tests were less gloweing however, scoring 29 out of a potential 50. There are several issues that stem of the flags found in the automated testing and the cookie prompt is hear to deal with.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -28,76 +28,75 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    title: '4/5 - The page has a logical tab order',
+    title: '2/5 The page has a logical tab order',
     info2:
-      'Suggestions: Avoid text spanning long gaps in elements. See if ads can be better vetted for accessibility',
+      'Suggestions: Establish a more, top to bottom tab order. Make sections of the site clearly distinguishable that would make the sidebar/main column jumps clearer.',
     info:
-      '4/5 : Generally the tab order is clear, occasionally elements with length longer than the viewport cause mildly confusing jumps. The tab order was a bit muddled within an ad displayed on the page.',
+      'The tab order is muddled in places. Some examples include the top bar focusing after the navbar and unclear jumps to the sidebar and back. Within main list of articles, there is a logical order however',
   },
   {
     id: nanoid(),
-    title: 'Interactive Controls are keyboard focusable',
-    info: '10/10 - No issues found, all controls were keyboard focusable.',
-    info2: 'Suggestions: None.',
+    title: '5/5 - Interactive Controls are keyboard focusable',
+    info: 'No issues found, all regular controls were keyboard focusable.',
+    info2: 'Suggestions: None',
   },
   {
     id: nanoid(),
-    title: 'Interactive elements indicate their purpose and state',
+    title: '4/5 Interactive elements indicate their purpose and state',
     info2:
-      'Suggestions: Review style guide to cover elements that might follow interactive element design patterns unintentionally',
+      'Suggestions: Consider making a clearer distinction between minor interactive elements and regular content.',
     info:
-      '4/5 - Most interactive elements are clear, using a filled colour lozenge to distinguish from other content. However, sometimes content, such as the subscribe element can mildly resemble interactive elements.',
+      'Bold font is used consistantly to show interactive elements with an additional underline provided on focus. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
   },
   {
     id: nanoid(),
-    title: 'The users focus is directed to new content added to the page',
+    title: '1/5 The users focus is directed to new content added to the page',
     info2:
-      'Suggestions: Allow the cookie prompt to take focus to allow easy response for keyboard only users',
+      'Suggestions: Allow the cookie prompt to take focus at the top of the page to allow easy response for keyboard only users',
     info:
-      '1/5 - The only new content found was the cookie prompt which was not focused, and did not appear focusable. This would be tricky for a keyboard only user to navigate.',
+      'The only new content found was the cookie prompt which was not focused, and did not appear focusable. This would be tricky for a keyboard only user to navigate.',
   },
   {
     id: nanoid(),
-    title: 'Users focus is not accidentally trapped in a region',
-    info2: 'Suggestions: As above but otherwise fine.',
+    title: '4/5 Users focus is not accidentally trapped in a region',
+    info2: 'Suggestions: Consider the use of clearer, smaller regions',
     info:
-      '4/5 - As a rule this did not happen in testing bar the cookie prompt as previously mentioned.',
+      'Generally good, however due to the size of regions, it can feel a little confining as its hard to see when it will focus on the side bar and then back to main bar',
   },
   {
     id: nanoid(),
-    title: 'Custom controls have associated labels',
-    info: '5/5 -  This appears to be the case in tab testing',
-    info2: 'Suggestions: None required, good work',
+    title: '2/5 Custom controls have associated labels',
+    info: 'This appears to be the case in tab testing',
+    info2: 'Suggestions: None required.',
   },
   {
     id: nanoid(),
-    title: 'Custom controls have ARIA roles',
+    title: '5/5 Custom controls have ARIA roles',
     info:
-      '5/5 - Controls that are used follow standard patterns and no not use anything that would cause',
-    info2: 'Suggestions: None required, top job!',
+      'Controls that are used follow standard patterns and no not use anything that would cause issues. Perfect use of ARIA labels throughout.',
+    info2: 'Suggestions: None required.',
   },
   {
     id: nanoid(),
-    title: 'Visual order on the page follows DOM order',
-    info:
-      '4/5 - Main divs follow logical order in relation to the dom. Occasionally large jumps were found in in tabbing which might be disorietating to some users ',
+    title: '2/5 Visual order on the page follows DOM order',
+    info: 'Elements follow logical order in relation to the DOM. ',
+    info2: 'Suggestions: None',
+  },
+  {
+    id: nanoid(),
+    title: '1/5 - Offscreen content is hidden from assistive technology',
     info2:
-      'Suggestions: As noted earlier, taking care to avoid exessively large page elements would reduce the jumpiness experienced on rare occasions.',
+      'Suggestions: Better labelling of links and images. Further work with UI elements such as the carousel to be clearer for screen readers.',
+    info:
+      'The issues flagged in the automated lighthouse testing, namely a lack of image and link labelling cause a fair amount of confusion for screen readers. A custom carousel used in a prominent place was very confusing when relying on screen reading. ',
   },
   {
     id: nanoid(),
-    title: 'Offscreen content is hidden from assistive technology',
+    title: '3/5 - HTML5 landmark elements are used to improve navigation',
+    info:
+      'Generally unclear from the HTML5 how the page is structured with heavily reliance on unlabelled iframes and divs',
     info2:
-      'Suggestions: None required, further testing with experienced screenreader tools is recommended.',
-    info:
-      '5/5 - With the assistive technology I used content could be followed along in a sensible fashion',
-  },
-  {
-    id: nanoid(),
-    title: 'HTML5 landmark elements are used to improve navigation',
-    info:
-      '4/5 - Generally relies on divs as primary container at a higher level, clear HTML used in general.',
-    info2: 'Suggestion: Consider use of more semantic tags where appriopriate.',
+      'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with further investigation',
   },
 ];
 

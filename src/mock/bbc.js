@@ -18,7 +18,7 @@ export const aboutData = {
   paragraphOne:
     'Automated lighthouse testing found 19 passed audits and 6 flagged opportunities for improvement with a total score of 68. ',
   paragraphTwo:
-    'Aria usage was the bulk of the flagged content mostly around the search tooling. "aria-hidden-true" elements contain focusable descendants, ARIA roles, attributes and IDs were misconfigured in a limited way. These flags give the BBC News home page a lower score than perhaps it deserves as whole.' ,
+    'Aria usage was the bulk of the flagged content mostly around the search tooling. "aria-hidden-true" elements contain focusable descendants, ARIA roles, attributes and IDs were misconfigured in a limited way. These flags give the BBC News home page a lower score than perhaps it deserves as whole.',
   paragraphThree:
     'The manual tests were extremely positive, scoring 49 out of a potential 50. Overall, the BBC News home page has excellent accessiblity with only ARIA usage in a few areas being na issue to address.',
   resume: '', // if no resume, the button will not show up
@@ -31,7 +31,7 @@ export const projectsData = [
     title: '5/5 The page has a logical tab order',
     info2: 'Suggestions: None required',
     info:
-      'Tab order is clear, small elements make it easy to follow the flow though the page. The cookie prompt is focuable and appears at the top.',
+      'Tab order is clear, small elements make it easy to follow the flow though the page. The cookie prompt is focusable and appears at the top.',
   },
   {
     id: nanoid(),
@@ -69,7 +69,8 @@ export const projectsData = [
   {
     id: nanoid(),
     title: '5/5 Custom controls have ARIA roles',
-    info: 'Controls that are used follow standard patterns and no not use anything that would cause issues',
+    info:
+      'Controls that are used follow standard patterns and no not use anything that would cause issues',
     info2: 'Suggestions: None required.',
   },
   {
@@ -91,7 +92,8 @@ export const projectsData = [
     title: '5/5 - HTML5 landmark elements are used to improve navigation',
     info:
       'Generally relies on divs as primary container at a higher level, clear HTML used in general.',
-    info2: 'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with furthger investigation',
+    info2:
+      'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with furthger investigation',
   },
 ];
 

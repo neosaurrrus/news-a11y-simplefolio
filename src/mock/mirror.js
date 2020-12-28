@@ -1,14 +1,14 @@
 import { nanoid } from 'nanoid';
 
 export const headData = {
-  title: 'BBC News Results', // e.g: 'Name | Developer'
+  title: 'The Sun Results', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'A study into news site accessibility on the BBC News Site', // e.g: Welcome to my website
+  description: 'A study into news site accessibility on The Sun site', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Acessilbilty report for',
-  name: 'BBC News',
-  subtitle: ' Rating: Excellent (Xth of 7.)',
+  title: 'Accessbility report for',
+  name: 'The Sun:',
+  subtitle: 'xxxxx',
   cta: 'learn more',
 };
 
@@ -16,11 +16,11 @@ export const heroData = {
 export const aboutData = {
   img: 'a11y.png',
   paragraphOne:
-    'Automated lighthouse testing found 19 passed audits and 6 flagged opportunities for improvement with a total score of 68. ',
+    'Automated lighthouse testing found 20 passed audits and 4 flagged opportunities for improvement with a total score of 83. ',
   paragraphTwo:
-    'Aria usage was the bulk of the flagged content mostly around the search tooling. "aria-hidden-true" elements contain focusable descendants, ARIA roles, attributes and IDs were misconfigured in a limited way. These flags give the BBC News home page a lower score than perhaps it deserves as whole.',
+    'The flags were for a few images and links that lacked the right alt tags and names, as well as some contrast issues (which is a common flag). The quality of the labelling, while present, does make this a slight flattering lighthouse score.',
   paragraphThree:
-    'The manual tests were extremely positive, scoring 49 out of a potential 50. Overall, the BBC News home page has excellent accessiblity with only ARIA usage in a few areas being na issue to address.',
+    'The manual tests scored 42 out of a potential 50, which is a great score. However the labels and tags used through the articles created signicant issues when using a screenreader which should be addressed.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -28,10 +28,10 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    title: '5/5 The page has a logical tab order',
+    title: '4/5 The page has a logical tab order',
     info2: 'Suggestions: None required',
     info:
-      'Tab order is clear, small elements make it easy to follow the flow though the page. The cookie prompt is focusable and appears at the top.',
+      'Tab order is clear, small elements make it easy to follow the flow though the page. The cookie prompt is focusable though appears at the bottom and has a slightly muddled tab order.',
   },
   {
     id: nanoid(),
@@ -41,29 +41,29 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    title: '4/5 Interactive elements indicate their purpose and state',
+    title: '3/5 Interactive elements indicate their purpose and state',
     info2:
-      'Suggestions: Consider making a clearer distinction between minor interactive elements and regular content.',
+      'Suggestions: Consider making a clearer distinction between minor interactive elements and regular content. Adding an underline when focused, like the BBC News site would aid clarity',
     info:
-      'Bold font is used consistantly to show interactive elements with an additional underline provided on focus. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
+      'Bold font is used consistantly to show interactive elements. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
   },
   {
     id: nanoid(),
-    title: '5/5 The users focus is directed to new content added to the page',
+    title: '4/5 The users focus is directed to new content added to the page',
     info2: 'Suggestions: None.',
     info:
-      'The only new content to appear was the cookie prompt which, as it appeared clearly at the top of the page was immediately focusable.',
+      'The only new content to appear was the cookie prompt. It appeared at the bottom of the page which is a little unclear, but was immediately focusable though the focus logic was a little muddled inside of it.',
   },
   {
     id: nanoid(),
     title: '5/5 Users focus is not accidentally trapped in a region',
     info2: 'Suggestions: None.',
-    info: 'In testing, the user foucs is never trapped in a region',
+    info: 'In testing, the user focus is never trapped in a region',
   },
   {
     id: nanoid(),
     title: '5/5 Custom controls have associated labels',
-    info: 'This appears to be the case in tab testing',
+    info: 'This appears to be the case in tab testing, consistent labbeling is used throughout',
     info2: 'Suggestions: None required.',
   },
   {
@@ -75,17 +75,19 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    title: '5/5 Visual order on the page follows DOM order',
-    info: 'Elements follow logical order in relation to the DOM. ',
-    info2: 'Suggestions: None',
+    title: '4/5 Visual order on the page follows DOM order',
+    info:
+      'Elements follow logical order from the DOM aside from the left and right side advertisments appearing above the central main content.  ',
+    info2:
+      'Suggestions: Look into order of advertisements to main content. However this is relativly minor and may cause adverse issues',
   },
   {
     id: nanoid(),
-    title: '5/5 - Offscreen content is hidden from assistive technology',
+    title: '2/5 - Offscreen content is hidden from assistive technology',
     info2:
-      'Suggestions: None required, further testing with experienced screenreader users is recommended.',
+      'Suggestions: Revise the labelling logic for article images and comments, consider use of ads more suitable for screen readers.',
     info:
-      'With the assistive technology I used content could be followed along in a sensible fashion. The skip to content function was appreciated as the top navigation options are extenstive',
+      'With the assistive technology, the content was in a logical order. However the article image and comment elements simply used the name of the article which meant that the user would hear the article headline 3 times per article! The advertisments used also has elements that just added to the overal noise.',
   },
   {
     id: nanoid(),
@@ -93,7 +95,7 @@ export const projectsData = [
     info:
       'Generally relies on divs as primary container at a higher level, clear HTML used in general.',
     info2:
-      'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with furthger investigation',
+      'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with further investigation',
   },
 ];
 

@@ -20,7 +20,7 @@ export const aboutData = {
   paragraphTwo:
     'The most common flags were for many of the images, links and iframes missing the relevent titles or tages and the heading elements do not follow a sequentially decending order. While the lighthouse score is excellent, the issues flagged occur with greater frequency than the score would suggest.',
   paragraphThree:
-    'The manual tests were less gloweing however, scoring 29 out of a potential 50. There are several issues that stem of the flags found in the automated testing and the cookie prompt is hear to deal with.',
+    'The manual tests were less glowing however, scoring 29 out of a potential 50. There are several issues that stem of the flags found in the automated testing and the cookie prompt is hear to deal with.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -30,9 +30,9 @@ export const projectsData = [
     id: nanoid(),
     title: '2/5 The page has a logical tab order',
     info2:
-      'Suggestions: Establish a more, top to bottom tab order. Make sections of the site clearly distinguishable that would make the sidebar/main column jumps clearer.',
+      'Suggestions: Establish a more consistent top to bottom tab order. Make sections of the site clearly distinguishable that would make the sidebar/main column jumps clearer. The Mirror is a good example of how this can be achieved.',
     info:
-      'The tab order is muddled in places. Some examples include the top bar focusing after the navbar and unclear jumps to the sidebar and back. Within main list of articles, there is a logical order however',
+      'The tab order is muddled in places. Some examples include the top bar focusing after the navbar and unclear jumps to the sidebar and back. Within the articles, which is the majority of the page, there is a logical order however',
   },
   {
     id: nanoid(),

@@ -14,7 +14,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'a11y.png',
+  img: 'guardian.png',
   paragraphOne:
     'Some improvements were identified by lighthouse testing but these were most one-off issues.',
   paragraphTwo:

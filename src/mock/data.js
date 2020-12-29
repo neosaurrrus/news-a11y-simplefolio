@@ -47,7 +47,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'mirror.png',
     title: 'The Daily Mirror',
     info: 'Launched in 1999',
     info2: 'Something about the guardian',
@@ -56,7 +56,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'telegraph.jpg',
     title: 'The Daily Telegraph',
     info: 'Something about the site',
     info2: 'Something about the organisation',
@@ -65,7 +65,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'mail.png',
     title: 'The Daily Mail',
     info: 'Something about the site',
     info2: 'Something about the organisation',
@@ -74,7 +74,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'times.png',
     title: 'The Times',
     info: 'Something about the site',
     info2: 'Something about the organisation',
@@ -83,7 +83,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'sun.png',
     title: 'The Sun',
     info: 'Something about the site',
     info2: 'Something about the organisation',

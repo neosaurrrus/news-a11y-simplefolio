@@ -14,7 +14,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'a11y.png',
+  img: 'bbc.png',
   paragraphOne:
     'Automated lighthouse testing found 19 passed audits and 6 flagged opportunities for improvement with a total score of 68. ',
   paragraphTwo:

@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: 'UK News Accessibility in',
   name: '2020',
-  subtitle: 'A look at WCAG2.1 adherence on popular news sites',
+  subtitle: 'a status report on accessibility on popular news sites',
   cta: 'more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'a11y.png',
-  paragraphOne: 'Why are news Sites important? Democrcyy',
-  paragraphTwo: 'As well as moral case. Population of disability.',
-  paragraphThree: '',
-  resume: 'wcag', // if no resume, the button will not show up
+  paragraphOne: 'Democracy relies on all people being informed. When online news is made inconvenient to 1 in 5 of the UK population that have a disability, it can lead to underrepresentation and marginalisation of those views.',
+  paragraphTwo: 'Putting the moral case aside, 14.1 million people is a large market and designs that put accessibiity at the forefront often are great designs for everyone.',
+  paragraphThree: 'My findings for 2020 are positive overall, most publications reviewed have great accessibility though most also have one or two areas that could use improvement.',
+  // resume: 'wcag', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -60,7 +60,7 @@ export const projectsData = [
     title: 'The Daily Telegraph',
     info: 'Something about the site',
     info2: 'Something about the organisation',
-    url: 'the-daily-telegraph',
+    url: 'the-telegraph',
     repo: 'https://www.telegraph.co.uk/', // if no repo, the button will not show up
   },
   {

@@ -16,16 +16,8 @@ const Contact = () => {
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta ||
-                'This is a just a little dip into something that deserves a deeper look, I would especially love to work with regular users of accessibility tools'}
+                'For 2021, I want to develop this to be a comprehensive analysis against the upcoming WCAG2.2. I would especially love to work with regular users of accessibility tools. Please reach out via the links in the footer!'}
             </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://lukiekang.com'}
-            >
-              {btn || 'Get in Touch!'}
-            </a>
           </div>
         </Fade>
       </Container>

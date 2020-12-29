@@ -1,15 +1,15 @@
 import { nanoid } from 'nanoid';
 
 export const headData = {
-  title: 'The Sun Results', // e.g: 'Name | Developer'
+  title: 'The Mirror results', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'A study into news site accessibility on The Sun site', // e.g: Welcome to my website
+  description: 'A study into news site accessibility on The Daily Mirror site', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Accessbility report for',
-  name: 'The Sun:',
-  subtitle: 'xxxxx',
-  cta: 'learn more',
+  title: 'Accessibility report for',
+  name: 'The Mirror',
+  subtitle: 'Excellent bar screen reader issues.',
+  cta: 'more',
 };
 
 // ABOUT DATA
@@ -18,7 +18,7 @@ export const aboutData = {
   paragraphOne:
     'Automated lighthouse testing found 20 passed audits and 4 flagged opportunities for improvement with a total score of 83. ',
   paragraphTwo:
-    'The flags were for a few images and links that lacked the right alt tags and names, as well as some contrast issues (which is a common flag). The quality of the labelling, while present, does make this a slight flattering lighthouse score.',
+    'The flags were for a few images and links that lacked the right alt tags and names, as well as some contrast issues (which were not too glaring in my own opinion). The quality of the screen reader experience does make this a fair lighthouse score.',
   paragraphThree:
     'The manual tests scored 42 out of a potential 50, which is a great score. However the labels and tags used through the articles created signicant issues when using a screenreader which should be addressed.',
   resume: '', // if no resume, the button will not show up

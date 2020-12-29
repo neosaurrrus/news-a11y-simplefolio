@@ -4,15 +4,15 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'news for all of us', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'A study into news site accessibility', // e.g: Welcome to my website
+  description: 'news site accessibility for 2020', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'News is',
-  name: 'all of us.',
-  subtitle: 'A study on WCAG2.1 adherence on popular news sites',
-  cta: 'learn more',
+  title: 'UK News Accessibility in',
+  name: '2020',
+  subtitle: 'A look at WCAG2.1 adherence on popular news sites',
+  cta: 'more',
 };
 
 // ABOUT DATA
@@ -33,8 +33,8 @@ export const projectsData = [
     info:
       'Information and user interface components must be presentable to users in ways they can perceive.',
     info2: 'pookok opk op pko po opk opk ',
-    url: 'https://bbc.com/news',
-    repo: 'bbc', // if no repo, the button will not show up
+    url: 'bbc',
+    repo: 'https://bbc.com/news', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,8 +42,8 @@ export const projectsData = [
     img: 'guardian.png',
     info: 'Launched in 1999',
     info2: 'Something about the guardian',
-    url: 'https://theguardian.com',
-    repo: 'the-guardian', // if no repo, the button will not show up
+    url: 'the-guardian',
+    repo: 'https://theguardian.com', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -51,8 +51,8 @@ export const projectsData = [
     title: 'The Daily Mirror',
     info: 'Launched in 1999',
     info2: 'Something about the guardian',
-    url: 'https://theguardian.com',
-    repo: 'the-daily-mirror', // if no repo, the button will not show up
+    url: 'the-daily-mirror',
+    repo: 'https://www.mirror.co.uk/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -60,8 +60,8 @@ export const projectsData = [
     title: 'The Daily Telegraph',
     info: 'Something about the site',
     info2: 'Something about the organisation',
-    url: 'https://theguardian.com',
-    repo: 'the-daily-telegraph', // if no repo, the button will not show up
+    url: 'the-daily-telegraph',
+    repo: 'https://www.telegraph.co.uk/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -69,8 +69,8 @@ export const projectsData = [
     title: 'The Daily Mail',
     info: 'Something about the site',
     info2: 'Something about the organisation',
-    url: 'https://theguardian.com',
-    repo: 'the-daily-mail', // if no repo, the button will not show up
+    url: 'the-daily-mail',
+    repo: 'https://www.dailymail.co.uk/home/index.html', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -78,8 +78,8 @@ export const projectsData = [
     title: 'The Times',
     info: 'Something about the site',
     info2: 'Something about the organisation',
-    url: 'https://theguardian.com',
-    repo: 'the-times', // if no repo, the button will not show up
+    url: 'the-times',
+    repo: 'https://thetimes.co.uk', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -87,17 +87,17 @@ export const projectsData = [
     title: 'The Sun',
     info: 'Something about the site',
     info2: 'Something about the organisation',
-    url: 'https://theguardian.com',
-    repo: 'the-sun', // if no repo, the button will not show up
+    url: 'the-sun',
+    repo: 'https://thesun.co.uk', // if no repo, the button will not show up
   },
 ];
 
-// // CONTACT DATA
-// export const contactData = {
-//   cta: '',
-//   btn: '',
-//   email: '',
-// };
+// CONTACT DATA
+export const contactData = {
+  cta: '',
+  btn: '',
+  email: '',
+};
 
 // FOOTER DATA
 export const footerData = {

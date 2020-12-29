@@ -6,9 +6,9 @@ export const headData = {
   description: 'A study into news site accessibility on the Daily Mail Site', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Acessilbilty report for',
-  name: 'Daily Mail',
-  subtitle: ' Rating: XXXXX (Xth of 7.)',
+  title: 'Accessibility report for',
+  name: 'The Daily Mail',
+  subtitle: 'More work needed',
   cta: 'Summary',
 };
 
@@ -65,7 +65,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    title: '2/5 Custom controls have associated labels',
+    title: '5/5 Custom controls have associated labels',
     info: 'This appears to be the case in tab testing',
     info2: 'Suggestions: None required.',
   },
@@ -79,7 +79,7 @@ export const projectsData = [
   {
     id: nanoid(),
     title: '2/5 Visual order on the page follows DOM order',
-    info: 'Elements follow logical order in relation to the DOM. ',
+    info: 'E ',
     info2: 'Suggestions: None',
   },
   {

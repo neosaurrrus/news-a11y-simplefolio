@@ -1,26 +1,25 @@
 import { nanoid } from 'nanoid';
 
 export const headData = {
-  title: 'BBC News Results', // e.g: 'Name | Developer'
+  title: 'The Times Results', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'A study into news site accessibility on the BBC News Site', // e.g: Welcome to my website
 };
 export const heroData = {
   title: 'Acessilbilty report for',
-  name: 'BBC News',
+  name: 'The Times',
   subtitle: ' Rating: Excellent (Xth of 7.)',
-  cta: 'learn more',
+  cta: 'more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'a11y.png',
+  img: 'bbc.png',
   paragraphOne:
-    'Automated lighthouse testing found 19 passed audits and 6 flagged opportunities for improvement with a total score of 68. ',
+    'Automated lighthouse testing found 20 passed audits and 5 flagged opportunities for improvement with a total score of 86. ',
   paragraphTwo:
-    'Aria usage was the bulk of the flagged content mostly around the search tooling. "aria-hidden-true" elements contain focusable descendants, ARIA roles, attributes and IDs were misconfigured in a limited way. These flags give the BBC News home page a lower score than perhaps it deserves as whole.',
-  paragraphThree:
-    'The manual tests were extremely positive, scoring 49 out of a potential 50. Overall, the BBC News home page has excellent accessiblity with only ARIA usage in a few areas being na issue to address.',
+    'Links lacking names and imgs lacking alt tags was the bulk of the issues detected but these only applied to a minority of the content. The score of 86 appears to be well deserved.',
+  paragraphThree: 'The manual tests were ...',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -28,31 +27,32 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    title: '5/5 The page has a logical tab order',
-    info2: 'Suggestions: None required',
+    title: '3/5 The page has a logical tab order',
+    info2:
+      'Suggestions: Ensure all focusable elements are indicated as much so that focus is not lost. Revise the layout in certain areas where it gets a bit strange.',
     info:
-      'Tab order is clear, small elements make it easy to follow the flow though the page. The cookie prompt is focusable and appears at the top.',
+      'The focus is lost for a couple of tabs in places (presumably focusing on ads and buttons at that point). This was particulary noticeableThe tab order is not logical in places across the layout (sometimes going up to an article). Though annoying, these issues only occur in certain places with the majority of content following a logical order.',
   },
   {
     id: nanoid(),
     title: '5/5 Interactive Controls are keyboard focusable',
-    info: 'No issues found, all controls were keyboard focusable.',
+    info: 'As mentioned, while all controls are focusable they may not appear so.',
     info2: 'Suggestions: None.',
   },
   {
     id: nanoid(),
-    title: '4/5 Interactive elements indicate their purpose and state',
+    title: '2/5 Interactive elements indicate their purpose and state',
     info2:
-      'Suggestions: Consider making a clearer distinction between minor interactive elements and regular content.',
+      'Suggestions: Ensure all elements have clear focus styling, add additional styling for elements on focus.',
     info:
-      'Bold font is used consistantly to show interactive elements with an additional underline provided on focus. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
+      'Certain buttons and adverts do not show the focus highlight making it unclear they are interactive. While, on hover, there is a subtle colour change indicating interactive elements, this is not the case on focus.',
   },
   {
     id: nanoid(),
     title: '5/5 The users focus is directed to new content added to the page',
     info2: 'Suggestions: None.',
     info:
-      'The only new content to appear was the cookie prompt which, as it appeared clearly at the top of the page was immediately focusable.',
+      'The only new content to appear was the cookie prompt which, of the page was immediately focusable.',
   },
   {
     id: nanoid(),

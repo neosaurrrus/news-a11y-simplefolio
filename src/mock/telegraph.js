@@ -6,10 +6,10 @@ export const headData = {
   description: 'A study into news site accessibility on the Telegraph site', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Accessibility report for',
-  name: 'The Telegraph',
+  title: 'Accessibility at',
+  name: 'The Telegraph:',
   subtitle: 'a great experience if you can actually subscribe.',
-  cta: 'learn more',
+  cta: 'more',
 };
 
 // ABOUT DATA
@@ -54,7 +54,7 @@ export const projectsData = [
     title: '2/5 The users focus is directed to new content added to the page',
     info2: 'Suggestions: Focus on the subscription prompt first and foremost.',
     info:
-      'The site provides a slash screen to survive which, while focusable, is only focusable after focusing on the cookie prompt behind it (which cannot be read properly in this state). Its easy to get stuck behind the subscription prompt, focusing on the newspaper content, as the focus formatting is not very clear on the substriction element itself.  ',
+      'The site provides a splash screen to subscribe which, while focusable, is only focusable after focusing on the cookie prompt behind it (which cannot be read properly in this state). Its easy to get stuck behind the subscription prompt, focusing on the newspaper content, as the focus formatting is not very clear on the substriction element itself.  ',
   },
   {
     id: nanoid(),
@@ -91,7 +91,7 @@ export const projectsData = [
     info2:
       'Suggestions: Rework subscription prompt. Consider more useful labelling of images in articles. Avoid repetition in contributor photos and name links.',
     info:
-      'The subscription prompt is promply mby my screen reader, which makes it difficult to progress. Otherwise it is generally good if you ignore subscription and cookie prompts. The Telegraph does not provide alt tags for images that are particulary clear but the payout is less image-heavy than most so the impact is lessened. Some of the contributor photos repeat what the link next to them says.',
+      'The subscription prompt is ignored by my screen reader, which makes it difficult to progress. Otherwise it is generally good if you ignore subscription and cookie prompts. The Telegraph does not provide alt tags for images that are particulary clear but the payout is less image-heavy than most so the impact is lessened. Some of the contributor photos repeat what the link next to them says.',
   },
   {
     id: nanoid(),
@@ -109,22 +109,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/lukie_k',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukiek/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/neosaurrrus',
     },
   ],
 };

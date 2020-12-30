@@ -6,20 +6,21 @@ export const headData = {
   description: 'A study into news site accessibility on The Times website', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Accessibility report for',
-  name: 'The Times...',
+  title: 'Accessibility at',
+  name: 'The Times:',
   subtitle: 'a few flaws mar an otherwise great experience.',
   cta: 'more',
 };
 
-  // ABOUT DATA
-  export const aboutData = {
+// ABOUT DATA
+export const aboutData = {
   img: 'times.png',
   paragraphOne:
     'Automated lighthouse testing found 20 passed audits and 5 flagged opportunities for improvement with a total score of 86. ',
   paragraphTwo:
     'Links lacking names and imgs lacking alt tags was the bulk of the issues detected but these only applied to a minority of the content. The score of 86 appears to be well deserved.',
-  paragraphThree: 'The manual tests showed up a couple of significant issues however. In articular the tab logic was not consistent and often went MIA, and using a screenreader was more annoying due to small but regular issues.',
+  paragraphThree:
+    'The manual tests showed up a couple of significant issues however. In articular the tab logic was not consistent and often went MIA, and using a screenreader was more annoying due to small but regular issues.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -92,8 +93,7 @@ export const projectsData = [
     title: '5/5 - HTML5 landmark elements are used to improve navigation',
     info:
       'Uses a combination of divs and sections as a primary container at a higher level, clear HTML used in general. One of the few news sites that actually uses sections',
-    info2:
-      'Suggestion: None',
+    info2: 'Suggestion: None',
   },
 ];
 
@@ -103,22 +103,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/lukie_k',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukiek/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/neosaurrrus',
     },
   ],
 };

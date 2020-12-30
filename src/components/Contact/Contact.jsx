@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta } = contact;
 
   return (
     <section id="contact">
@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta ||
-                'For 2021, I want to develop this to be a comprehensive analysis against the upcoming WCAG2.2. I would especially love to work with regular users of accessibility tools. Please reach out via the links in the footer!'}
+                'For 2021, the aim is to use the upcoming WCAG2.2 to perform a deeper analysis. It would be especially great to work with regular users of accessibility tools. Please reach out via the links in the footer.'}
             </p>
           </div>
         </Fade>

@@ -6,10 +6,10 @@ export const headData = {
   description: 'A study into news site accessibility on the Daily Mail Site', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Accessibility report for',
-  name: 'The Daily Mail',
-  subtitle: 'More work needed',
-  cta: 'Summary',
+  title: 'Accessibility at',
+  name: 'The Daily Mail:',
+  subtitle: 'more work needed in many areas.',
+  cta: 'more',
 };
 
 // ABOUT DATA
@@ -54,7 +54,7 @@ export const projectsData = [
     info2:
       'Suggestions: Allow the cookie prompt to take focus at the top of the page to allow easy response for keyboard only users',
     info:
-      'The only new content found was the cookie prompt which was not focused, and did not appear focusable. This would be tricky for a keyboard only user to navigate.',
+      'The only new content found was the cookie prompt which was not focused, and did not appear focusable. This would be tricky for a keyboard only user to navigate. On occasion a pop up video window appeared, which again could not be handled via keyboard.',
   },
   {
     id: nanoid(),
@@ -106,22 +106,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/lukie_k',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukiek/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/neosaurrrus',
     },
   ],
 };

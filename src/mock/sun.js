@@ -6,10 +6,10 @@ export const headData = {
   description: 'A study into news site accessibility on The Sun site.', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Acessilbilty report for',
-  name: 'The Sun',
-  subtitle: ' Ra(Xth of 7.)',
-  cta: 'view summary',
+  title: 'Acessilbilty at',
+  name: 'The Sun:',
+  subtitle: 'a few tweaks short of a good experience',
+  cta: 'more',
 };
 
 // ABOUT DATA
@@ -97,28 +97,22 @@ export const projectsData = [
   },
 ];
 
-// FOOTER DATA
 export const footerData = {
   networks: [
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/lukie_k',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukiek/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/neosaurrrus',
     },
   ],
 };

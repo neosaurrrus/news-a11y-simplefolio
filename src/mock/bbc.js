@@ -6,10 +6,10 @@ export const headData = {
   description: 'A study into news site accessibility on the BBC News Site', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Acessilbilty report for',
-  name: 'BBC News',
-  subtitle: ' Rating: Excellent (Xth of 7.)',
-  cta: 'learn more',
+  title: 'Accessibility at',
+  name: 'BBC News:',
+  subtitle: 'excellent experience despite poor lighthouse score.',
+  cta: 'more',
 };
 
 // ABOUT DATA
@@ -18,9 +18,9 @@ export const aboutData = {
   paragraphOne:
     'Automated lighthouse testing found 19 passed audits and 6 flagged opportunities for improvement with a total score of 68. ',
   paragraphTwo:
-    'Aria usage was the bulk of the flagged content mostly around the search tooling. "aria-hidden-true" elements contain focusable descendants, ARIA roles, attributes and IDs were misconfigured in a limited way. These flags give the BBC News home page a lower score than perhaps it deserves as whole.',
+    'Aria usage was the bulk of the flagged content mostly around the search tooling. "aria-hidden-true" elements contain focusable descendants, ARIA roles, attributes and IDs were misconfigured in a limited way. These flags give the BBC News home page a lower score than manual testing would suggest',
   paragraphThree:
-    'The manual tests were extremely positive, scoring 49 out of a potential 50. Overall, the BBC News home page has excellent accessiblity with only ARIA usage in a few areas being na issue to address.',
+    'The manual tests were extremely positive, scoring 49 out of a potential 50. Overall, the BBC News home page has excellent accessiblity with only ARIA usage in a few areas being an issue to address.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -58,7 +58,7 @@ export const projectsData = [
     id: nanoid(),
     title: '5/5 Users focus is not accidentally trapped in a region',
     info2: 'Suggestions: None.',
-    info: 'In testing, the user foucs is never trapped in a region',
+    info: 'In testing, the user focus is never trapped in a region',
   },
   {
     id: nanoid(),
@@ -85,7 +85,7 @@ export const projectsData = [
     info2:
       'Suggestions: None required, further testing with experienced screenreader users is recommended.',
     info:
-      'With the assistive technology I used content could be followed along in a sensible fashion. The skip to content function was appreciated as the top navigation options are extenstive',
+      'With the assistive technology I used content could be followed along in a sensible fashion. The skip to content function was appreciated as the top navigation options are extenstive. The BBC News site is only one tested that used image alt tags in a helpful way.',
   },
   {
     id: nanoid(),
@@ -96,29 +96,22 @@ export const projectsData = [
       'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with furthger investigation',
   },
 ];
-
-// FOOTER DATA
 export const footerData = {
   networks: [
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/lukie_k',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukiek/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/neosaurrrus',
     },
   ],
 };

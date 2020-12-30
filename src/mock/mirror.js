@@ -6,9 +6,9 @@ export const headData = {
   description: 'A study into news site accessibility on The Daily Mirror site', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Accessibility report for',
-  name: 'The Mirror',
-  subtitle: 'Excellent bar screen reader issues.',
+  title: 'Accessibility at',
+  name: 'The Mirror:',
+  subtitle: 'excellent bar the image alt tags.',
   cta: 'more',
 };
 
@@ -105,22 +105,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/lukie_k',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukiek/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/neosaurrrus',
     },
   ],
 };

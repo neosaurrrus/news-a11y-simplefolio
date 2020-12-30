@@ -6,10 +6,10 @@ export const headData = {
   description: 'A study into news site accessibility', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Acessilbilty report for',
-  name: 'The Guardian',
-  subtitle: 'Overall high scores',
-  cta: 'learn more',
+  title: 'Acessilbilty at',
+  name: 'The Guardian:',
+  subtitle: 'a great experience bar the on screen prompts.',
+  cta: 'more',
 };
 
 // ABOUT DATA
@@ -46,7 +46,7 @@ export const projectsData = [
     info2:
       'Suggestions: Review style guide to cover elements that might follow interactive element design patterns unintentionally',
     info:
-      '4/5 - Most interactive elements are clear, using a filled colour lozenge to distinguish from other content. However, sometimes content, such as the subscribe element can mildly resemble interactive elements.',
+      '3/5 - Most interactive elements are clear, using a filled colour lozenge to distinguish from other content. However, the cookie prompt colour choice makes it harder to distinguish focusable elements. Additionally sometimes content, such as the subscribe element can mildly resemble interactive elements.',
   },
   {
     id: nanoid(),
@@ -54,7 +54,7 @@ export const projectsData = [
     info2:
       'Suggestions: Allow the cookie prompt to take focus at the top of the page to allow easy response for keyboard only users',
     info:
-      '1/5 - The only new content found was the cookie prompt which was not focused, and did not appear focusable. This would be tricky for a keyboard only user to navigate.',
+      '1/5 - The cookie prompt was immediately focusable and appeared clearly. However, the support request prompt did not appear focusable at all which makes it difficult to remove with only a keyboard',
   },
   {
     id: nanoid(),
@@ -90,7 +90,7 @@ export const projectsData = [
     info2:
       'Suggestions: None required, further testing with experienced screenreader tools is recommended.',
     info:
-      '5/5 - With the assistive technology I used content could be followed along in a sensible fashion',
+      '5/5 - With the assistive technology I used content could be followed along in a sensible fashion. Images deliberately do not have alt content which at least helps clarity',
   },
   {
     id: nanoid(),
@@ -107,22 +107,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/lukie_k',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lukiek/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/neosaurrrus',
     },
   ],
 };

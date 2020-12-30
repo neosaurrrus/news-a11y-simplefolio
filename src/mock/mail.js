@@ -79,7 +79,7 @@ export const projectsData = [
   {
     id: nanoid(),
     title: '2/5 Visual order on the page follows DOM order',
-    info: 'E ',
+    info: '',
     info2: 'Suggestions: None',
   },
   {

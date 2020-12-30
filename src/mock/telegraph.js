@@ -54,7 +54,7 @@ export const projectsData = [
     title: '2/5 The users focus is directed to new content added to the page',
     info2: 'Suggestions: Focus on the subscription prompt first and foremost.',
     info:
-      'The site provides a splash screen to subscribe which, while focusable, is only focusable after focusing on the cookie prompt behind it (which cannot be read properly in this state). Its easy to get stuck behind the subscription prompt, focusing on the newspaper content, as the focus formatting is not very clear on the substriction element itself.  ',
+      'The site provides a splash screen to subscribe which, while focusable, is only focusable after focusing on the cookie prompt behind it (which cannot be read properly in this state). Its easy to get stuck behind the subscription prompt, focusing on the newspaper content, as the focus formatting is not very clear on the substriction element itself.',
   },
   {
     id: nanoid(),

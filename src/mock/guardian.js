@@ -6,9 +6,9 @@ export const headData = {
   description: 'A study into news site accessibility', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Acessilbilty at',
+  title: 'Accessibility at',
   name: 'The Guardian:',
-  subtitle: 'a great experience bar the on screen prompts.',
+  subtitle: 'a great experience...ignoring the prompts',
   cta: 'more',
 };
 
@@ -16,7 +16,7 @@ export const heroData = {
 export const aboutData = {
   img: 'guardian.png',
   paragraphOne:
-    'Some improvements were identified by lighthouse testing but these were most one-off issues.',
+    'Automated lighthouse testing Some improvements were identified by lighthouse testing but these were most one-off issues.',
   paragraphTwo:
     'Footer Elements with "aria-hidden-true" contain descendants that are focusable which may stop those with screen readers accessing. A few images lack alt tags to explain the images to screen reader users.',
   paragraphThree:
@@ -28,75 +28,75 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    title: 'The page has a logical tab order',
+    title: '4/5 The page has a logical tab order',
     info2:
       'Suggestions: Avoid text spanning long gaps in elements. See if ads can be better vetted for accessibility',
     info:
-      '4/5 : Generally the tab order is clear, occasionally elements with length longer than the viewport cause mildly confusing jumps. The tab order was a bit muddled within an ad displayed on the page.',
+      'Generally the tab order is clear, occasionally elements with length longer than the viewport cause mildly confusing jumps. The tab order was a bit muddled within a particular ad displayed on the page.',
   },
   {
     id: nanoid(),
-    title: '5/5 - Interactive Controls are keyboard focusable',
+    title: '5/5 Interactive Controls are keyboard focusable',
     info: 'No issues found, all regular controls were keyboard focusable.',
     info2: 'Suggestions: None.',
   },
   {
     id: nanoid(),
-    title: 'Interactive elements indicate their purpose and state',
+    title: '2/5 Interactive elements indicate their purpose and state',
     info2:
       'Suggestions: Review style guide to cover elements that might follow interactive element design patterns unintentionally',
     info:
-      '3/5 - Most interactive elements are clear, using a filled colour lozenge to distinguish from other content. However, the cookie prompt colour choice makes it harder to distinguish focusable elements. Additionally sometimes content, such as the subscribe element can mildly resemble interactive elements.',
+      'Most interactive elements are clear, using a filled colour lozenge to distinguish from other content. However, the cookie prompt colour choice makes it harder to distinguish focusable elements. Additionally content, such as the subscribe element can mildly resemble interactive elements.',
   },
   {
     id: nanoid(),
-    title: 'The users focus is directed to new content added to the page',
+    title: '1/5 The users focus is directed to new content added to the page',
     info2:
-      'Suggestions: Allow the cookie prompt to take focus at the top of the page to allow easy response for keyboard only users',
+      'Suggestions: Allow the support the guardian prompt to take focus to allow easy response for keyboard only users',
     info:
-      '1/5 - The cookie prompt was immediately focusable and appeared clearly. However, the support request prompt did not appear focusable at all which makes it difficult to remove with only a keyboard',
+      'The cookie prompt was immediately focusable and appeared clearly. However, the support the guardian prompt did not appear focusable at all which makes it difficult to remove with only a keyboard.',
   },
   {
     id: nanoid(),
-    title: 'Users focus is not accidentally trapped in a region',
+    title: '4/5 Users focus is not accidentally trapped in a region',
     info2: 'Suggestions: As above but otherwise fine.',
     info:
-      '4/5 - As a rule this did not happen in testing bar the cookie prompt as previously mentioned.',
+      'As a rule this did not happen in testing bar the supporter prompt as previously mentioned.',
   },
   {
     id: nanoid(),
-    title: 'Custom controls have associated labels',
-    info: '5/5 -  This appears to be the case in tab testing',
-    info2: 'Suggestions: None required, good work',
+    title: '5/5 Custom controls have associated labels',
+    info: 'This appears to be the case in tab testing',
+    info2: 'Suggestions: None required',
   },
   {
     id: nanoid(),
-    title: 'Custom controls have ARIA roles',
+    title: '5/5 Custom controls have ARIA roles',
     info:
-      '5/5 - Controls that are used follow standard patterns and no not use anything that would cause',
-    info2: 'Suggestions: None required, top job!',
+      'Controls that are used follow standard patterns and no not use anything that would cause',
+    info2: 'Suggestions: None required',
   },
   {
     id: nanoid(),
-    title: 'Visual order on the page follows DOM order',
+    title: '4/5 Visual order on the page follows DOM order',
     info:
-      '4/5 - Main divs follow logical order in relation to the dom. Occasionally large jumps were found in in tabbing which might be disorietating to some users ',
+      'Main divs follow logical order in relation to the dom. Somewhat related to this, large jumps were found in in tabbing which might be disorietating to some users ',
     info2:
       'Suggestions: As noted earlier, taking care to avoid exessively large page elements would reduce the jumpiness experienced on rare occasions.',
   },
   {
     id: nanoid(),
-    title: 'Offscreen content is hidden from assistive technology',
+    title: '5/5 Offscreen content is hidden from assistive technology',
     info2:
-      'Suggestions: None required, further testing with experienced screenreader tools is recommended.',
+      'Suggestions: An element containing a graph could have been tweaked to provide a slightly more clearer experience for a screen reader. Further testing with experienced screenreader tools is recommended.',
     info:
-      '5/5 - With the assistive technology I used content could be followed along in a sensible fashion. Images deliberately do not have alt content which at least helps clarity',
+      'With the assistive technology I used, content could be followed along in a sensible fashion. Images deliberately do not have alt content which does help make traversing the site more. ',
   },
   {
     id: nanoid(),
-    title: 'HTML5 landmark elements are used to improve navigation',
+    title: '4/5 HTML5 landmark elements are used to improve navigation',
     info:
-      '4/5 - Generally relies on divs as primary container at a higher level, clear HTML used in general.',
+      'Generally relies on divs as primary container at a higher level, clear HTML used in general.',
     info2: 'Suggestion: Consider use of more semantic tags where appriopriate.',
   },
 ];

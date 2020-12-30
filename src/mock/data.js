@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'a11y.png',
+  img: 'blinded.jpeg',
   paragraphOne:
     'Democracy ultimately suffers when news does not speak clearly to us all. When 20% of the UK that have a disability, there is a significant risk of marginalising a large portion of our population',
   paragraphTwo:

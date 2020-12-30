@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        More
+                        more
                       </a>
                       {repo && (
                         <a
@@ -64,7 +64,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          View Site
+                          view site
                         </a>
                       )}
                     </div>
@@ -82,7 +82,7 @@ const Projects = () => {
                       <a
                         href={url || '#!'}
                         target="_blank"
-                        aria-label="Project Link"
+                        aria-label="Site Link"
                         rel="noopener noreferrer"
                       >
                         <Tilt

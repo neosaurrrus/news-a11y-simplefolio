@@ -18,9 +18,9 @@ export const aboutData = {
   paragraphOne:
     'Automated lighthouse testing found 20 passed audits and 5 flagged opportunities for improvement with a total score of 86. ',
   paragraphTwo:
-    'Links lacking names and imgs lacking alt tags was the bulk of the issues detected but these only applied to a minority of the content. The score of 86 appears to be well deserved.',
+    'Links lacking names and imgs lacking alt tags was the bulk of the issues detected but these only applied to a minority of the content. The score of 86 appears to be well deserved but area of manual testing means that this score does flatter somewhat.',
   paragraphThree:
-    'The manual tests showed up a couple of significant issues however. In articular the tab logic was not consistent and often went MIA, and using a screenreader was more annoying due to small but regular issues.',
+    'The manual tests showed up a couple of significant issues however. In articular the tab logic was not consistent and often went MIA, and using a screen reader was more annoying due to small but regular issues.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -32,7 +32,7 @@ export const projectsData = [
     info2:
       'Suggestions: Ensure all focusable elements are indicated as much so that focus is not lost. Revise the layout in certain areas where it gets a bit strange.',
     info:
-      'The focus is lost for a couple of tabs in places (presumably focusing on ads and buttons at that point). This was particulary noticeable on the Subscription page that is normally the first thing a user would see. The tab order is not logical in places across the layout (sometimes going up to an article). Though annoying, these issues only occur in certain places with the majority of content following a logical order.',
+      'The focus is lost for a couple of tabs in places (presumably focusing on ads and buttons at that point). This was particularly noticeable on the Subscription page that is normally the first thing a user would see. The tab order is not logical in places across the layout (sometimes going up to an article). Though annoying, these issues only occur in certain places with the majority of content following a logical order.',
   },
   {
     id: nanoid(),
@@ -86,7 +86,7 @@ export const projectsData = [
     info2:
       'Suggestions: Work with sponsored content providers to improve screen reader functionality. Rework the pattern between article images and headings',
     info:
-      'The skip to content function was appreciated as well as collapsed navigation. However testing revealed a number of issues: the labels used for images were confusing as they come before the heading and often only made sense in reference to the heading which is spoken afterwards. The sponsored content section makes little to no consession to screen readers.',
+      'The skip to content function was appreciated as well as collapsed navigation. However testing revealed a number of issues: the labels used for images were confusing as they come before the heading and often only made sense in reference to the heading which is spoken afterwards. The sponsored content section makes little to no concession to screen readers.',
   },
   {
     id: nanoid(),

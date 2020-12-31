@@ -20,7 +20,7 @@ export const aboutData = {
   paragraphTwo:
     'Aria usage was the bulk of the flagged content mostly around the search tooling. "aria-hidden-true" elements contain focusable descendants, ARIA roles, attributes and IDs were misconfigured in a limited way. These flags give the BBC News home page a lower score than manual testing would suggest',
   paragraphThree:
-    'The manual tests were extremely positive, scoring 49 out of a potential 50. Overall, the BBC News home page has excellent accessiblity with only ARIA usage in a few areas being an issue to address.',
+    'The manual tests were extremely positive, scoring 49 out of a potential 50. Overall, the BBC News home page has excellent accessibility with only ARIA usage in a few areas being an issue to address.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -45,7 +45,7 @@ export const projectsData = [
     info2:
       'Suggestions: Consider making a clearer distinction between minor interactive elements and regular content.',
     info:
-      'Bold font is used consistantly to show interactive elements with an additional underline provided on focus. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
+      'Bold font is used consistently to show interactive elements with an additional underline provided on focus. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
   },
   {
     id: nanoid(),
@@ -83,7 +83,7 @@ export const projectsData = [
     id: nanoid(),
     title: '5/5 - Offscreen content is hidden from assistive technology',
     info2:
-      'Suggestions: None required, further testing with experienced screenreader users is recommended.',
+      'Suggestions: None required, further testing with experienced screen reader users is recommended.',
     info:
       'With the assistive technology I used content could be followed along in a sensible fashion. The skip to content function was appreciated as the top navigation options are extenstive. The BBC News site is only one tested that used image alt tags in a helpful way.',
   },
@@ -93,7 +93,7 @@ export const projectsData = [
     info:
       'Generally relies on divs as primary container at a higher level, clear HTML used in general.',
     info2:
-      'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with furthger investigation',
+      'Suggestion: Consider use of more semantic tags where appropriate but this may not be appropriate with further investigation',
   },
 ];
 export const footerData = {

@@ -45,7 +45,7 @@ export const projectsData = [
     info2:
       'Suggestions: Consider making a clearer distinction between minor interactive elements and regular content. Adding an underline when focused, like the BBC News site would aid clarity',
     info:
-      'Bold font is used consistantly to show interactive elements. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
+      'Bold font is used consistently to show interactive elements. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
   },
   {
     id: nanoid(),
@@ -63,7 +63,7 @@ export const projectsData = [
   {
     id: nanoid(),
     title: '5/5 Custom controls have associated labels',
-    info: 'This appears to be the case in tab testing, consistent labbeling is used throughout',
+    info: 'This appears to be the case in tab testing, consistent labeling is used throughout',
     info2: 'Suggestions: None required.',
   },
   {
@@ -77,9 +77,9 @@ export const projectsData = [
     id: nanoid(),
     title: '4/5 Visual order on the page follows DOM order',
     info:
-      'Elements follow logical order from the DOM aside from the left and right side advertisments appearing above the central main content.  ',
+      'Elements follow logical order from the DOM aside from the left and right side advertisements appearing above the central main content.  ',
     info2:
-      'Suggestions: Look into order of advertisements to main content. However this is relativly minor and may cause adverse issues',
+      'Suggestions: Look into order of advertisements to main content. However this is relatively minor and may cause adverse issues',
   },
   {
     id: nanoid(),
@@ -95,7 +95,7 @@ export const projectsData = [
     info:
       'Generally relies on divs as primary container at a higher level, clear HTML used in general.',
     info2:
-      'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with further investigation',
+      'Suggestion: Consider use of more semantic tags where appropriate but this may not be appropriate with further investigation',
   },
 ];
 

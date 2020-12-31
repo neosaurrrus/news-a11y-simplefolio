@@ -20,7 +20,7 @@ export const aboutData = {
   paragraphTwo:
     'Footer Elements with "aria-hidden-true" contain descendants that are focusable which may stop those with screen readers accessing. A few images lack alt tags to explain the images to screen reader users.',
   paragraphThree:
-    'The most common issue was that a number of elements lacked a sufficient contract ratio which may limt readability for people with visual impairements',
+    'The most common issue was that a number of elements lacked a sufficient contract ratio which may limit readability for people with visual impairments',
   resume: 'https://design.theguardian.com/', // if no resume, the button will not show up
 };
 
@@ -80,9 +80,9 @@ export const projectsData = [
     id: nanoid(),
     title: '4/5 Visual order on the page follows DOM order',
     info:
-      'Main divs follow logical order in relation to the dom. Somewhat related to this, large jumps were found in in tabbing which might be disorietating to some users ',
+      'Main divs follow logical order in relation to the dom. Somewhat related to this, large jumps were found in in tabbing which might be disorientating to some users ',
     info2:
-      'Suggestions: As noted earlier, taking care to avoid exessively large page elements would reduce the jumpiness experienced on rare occasions.',
+      'Suggestions: As noted earlier, taking care to avoid excessively large page elements would reduce the jumpiness experienced on rare occasions.',
   },
   {
     id: nanoid(),
@@ -97,7 +97,7 @@ export const projectsData = [
     title: '4/5 HTML5 landmark elements are used to improve navigation',
     info:
       'Generally relies on divs as primary container at a higher level, clear HTML used in general.',
-    info2: 'Suggestion: Consider use of more semantic tags where appriopriate.',
+    info2: 'Suggestion: Consider use of more semantic tags where appropriate.',
   },
 ];
 

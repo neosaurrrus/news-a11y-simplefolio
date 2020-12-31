@@ -21,9 +21,9 @@ export const aboutData = {
   paragraphOne:
     'Democracy ultimately suffers when news does not speak clearly to us all. When 20% of the UK that have a disability, there is a significant risk of marginalising a large portion of our population',
   paragraphTwo:
-    'Putting the moral case aside, 14.1 million people is a large market and designs that put accessibiity first tend to be great designs period.',
+    'Putting the moral case aside, 14.1 million people is a large market and designs that put accessibility first tend to be great designs period.',
   paragraphThree:
-    'This site takes look at seven popular UK news sites and see how well thier front pages stack up against basic accessibiity testing.',
+    'This site takes look at seven popular UK news sites and see how well their front pages stack up against basic accessibility testing.',
   // resume: 'wcag', // if no resume, the button will not show up
 };
 
@@ -33,7 +33,8 @@ export const projectsData = [
     id: nanoid(),
     title: 'BBC',
     img: 'bbc.png',
-    info: 'The BBC News website was launched in 1997 with its latest design going live from 2015.',
+    info:
+      'The BBC News website was launched in 1997 with its latest design going live from 2015. It is the 5th most popular website in the UK',
     info2:
       'Despite some flagging of ARIA related issues, the BBC News site is very accessible with care taken over tab order and screen readers.',
     url: 'bbc',
@@ -87,7 +88,7 @@ export const projectsData = [
     img: 'times.png',
     title: 'The Times',
     info:
-      'Originally founded in 1795, the Times exists as a susidiary of News UK. It has had a paywall since 2010.',
+      'Originally founded in 1795, the Times exists as a subsidiary of News UK. It has had a paywall since 2010.',
     info2:
       'A good experience overall, but many minor improvements can be found especially in how sponsored content is used.',
     url: 'the-times',

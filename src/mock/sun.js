@@ -45,7 +45,7 @@ export const projectsData = [
     title: '3/5 Interactive elements indicate their purpose and state',
     info2: 'Suggestions: Consider making interactive elements more clear upon hover.',
     info:
-      'The vast majority of the page is interactive though particular secondary elelemtns such as the news category selector use a different colour which does help make it clearer compared to other sites. However, the nav bar and comments icons are unclear due to the lack of distinction and overall the lack of focus styling does reduce clarity.',
+      'The vast majority of the page is interactive though particular secondary elements such as the news category selector use a different colour which does help make it clearer compared to other sites. However, the nav bar and comments icons are unclear due to the lack of distinction and overall the lack of focus styling does reduce clarity.',
   },
   {
     id: nanoid(),
@@ -58,7 +58,7 @@ export const projectsData = [
     id: nanoid(),
     title: '5/5 Users focus is not accidentally trapped in a region',
     info2: 'Suggestions: None.',
-    info: 'In testing, the user foucs is never trapped in a region.',
+    info: 'In testing, the user focus is never trapped in a region.',
   },
   {
     id: nanoid(),
@@ -77,7 +77,7 @@ export const projectsData = [
     id: nanoid(),
     title: '4/5 Visual order on the page follows DOM order',
     info:
-      'At a high level, the clear layout follows the DOM closely. However there are some sub-elements that are misordered in relation to the DOM  ',
+      'At a high level, the clear layout follows the DOM closely. However there are some sub-elements that are disordered in relation to the DOM  ',
     info2: 'Suggestions: None',
   },
   {
@@ -93,7 +93,7 @@ export const projectsData = [
     title: '4/5 HTML5 landmark elements are used to improve navigation',
     info: 'Generally relies on divs throughout with large amounts of classes.',
     info2:
-      'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with furthger investigation',
+      'Suggestion: Consider use of more semantic tags where appropriate but this may not be appropriate with further investigation',
   },
 ];
 

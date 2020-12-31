@@ -18,7 +18,7 @@ export const aboutData = {
   paragraphOne:
     'Automated lighthouse testing found 17 passed audits and 6 flagged opportunities for improvement with a total score of 84. ',
   paragraphTwo:
-    'The most common flags were for many of the images, links and iframes missing the relevent titles or tages and the heading elements do not follow a sequentially decending order. While the lighthouse score is excellent, the issues flagged occur with greater frequency than the score would suggest.',
+    'The most common flags were for many of the images, links and frames missing the relevant titles or tags and the heading elements do not follow a sequentially descending order. While the lighthouse score is excellent, the issues flagged occur with greater frequency than the score would suggest.',
   paragraphThree:
     'The manual tests were less glowing however, scoring 29 out of a potential 50. There are several issues that stem of the flags found in the automated testing and the cookie prompt is hear to deal with.',
   resume: '', // if no resume, the button will not show up
@@ -46,7 +46,7 @@ export const projectsData = [
     info2:
       'Suggestions: Consider making a clearer distinction between minor interactive elements and regular content.',
     info:
-      'Bold font is used consistantly to show interactive elements with an additional underline provided on focus. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
+      'Bold font is used consistently to show interactive elements with an additional underline provided on focus. Secondary interactive elements such as the links to news categories are a little hard to distinguish before focusing. ',
   },
   {
     id: nanoid(),
@@ -79,8 +79,9 @@ export const projectsData = [
   {
     id: nanoid(),
     title: '2/5 Visual order on the page follows DOM order',
-    info: '',
-    info2: 'Suggestions: None',
+    info:
+      'The DOM order is different to the visual layout in a number of places, both at a high level but within smaller elements.',
+    info2: 'Suggestions: Will require further analysis to full ascertain the right approach',
   },
   {
     id: nanoid(),
@@ -96,7 +97,7 @@ export const projectsData = [
     info:
       'Generally unclear from the HTML5 how the page is structured with heavily reliance on unlabelled iframes and divs',
     info2:
-      'Suggestion: Consider use of more semantic tags where appriopriate but this may not be appropriate with further investigation',
+      'Suggestion: Consider use of more semantic tags where appropriate but this may not be appropriate with further investigation',
   },
 ];
 

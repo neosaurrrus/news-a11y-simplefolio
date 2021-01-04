@@ -6,7 +6,7 @@ export const headData = {
   description: 'A study into news site accessibility on The Sun site.', // e.g: Welcome to my website
 };
 export const heroData = {
-  title: 'Acessilbilty at',
+  title: 'Accessibility at',
   name: 'The Sun:',
   subtitle: 'a few tweaks short of a good experience',
   cta: 'more',
@@ -18,7 +18,7 @@ export const aboutData = {
   paragraphOne:
     'Automated lighthouse testing found 20 passed audits and 4 flagged opportunities for improvement with a total score of 83. ',
   paragraphTwo:
-    'The only issues that appear repeatedly are the lack of names for links and constrast not being sufficient. This would suggest a score of 83 for The Sun is well deserved score, but the manual testing does let it down somewhat.',
+    'The only issues that appear repeatedly are the lack of names for links and contrast not being sufficient. This would suggest a score of 83 for The Sun is well deserved score, but the manual testing does let it down somewhat.',
   paragraphThree:
     'Manual testing reveals that the tab order and the handling of screen readers leads to a suboptimal experience. These would take relatively small tweaks in order to fix but would make a huge difference for users that rely on those features. ',
   resume: '', // if no resume, the button will not show up
